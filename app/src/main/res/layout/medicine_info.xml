@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"
+        android:id="@+id/cost"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pc"
+        android:id="@+id/pharmaceuticalCompany"
+        android:layout_below="@+id/cost"
+        android:layout_alignLeft="@+id/cost"
+        android:layout_alignStart="@+id/cost"
+        android:layout_marginTop="43dp"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_stock"
+        android:id="@+id/inStock"
+        android:layout_below="@+id/pharmaceuticalCompany"
+        android:layout_alignLeft="@+id/pharmaceuticalCompany"
+        android:layout_alignStart="@+id/pharmaceuticalCompany"
+        android:layout_marginTop="41dp"
+        android:textSize="18dp" />
+</RelativeLayout>

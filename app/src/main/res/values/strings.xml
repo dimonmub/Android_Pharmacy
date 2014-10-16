@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pharmacy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="medicine">Лекарство</string>
+    <string name="cost">Цена</string>
+    <string name="pc">Фармацевтическая компания</string>
+    <string name="in_stock">В наличии</string>
+    <string name="title_activity_items">ItemsActivity</string>
+    <string name="title_activity_item">ItemActivity</string>
+
+</resources>
